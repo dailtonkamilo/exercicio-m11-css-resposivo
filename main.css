@@ -69,8 +69,8 @@ header{
 }
 
 .destaques img{
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
 
 }
 
@@ -80,7 +80,7 @@ header{
 
 .destaques .noticias a {
     display: flex;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .destaques .noticias img {
@@ -129,6 +129,8 @@ hr{
 .conteiner h1, .menu {
     color: rgb(4, 126, 4);
 }
+
+
 
 
 @media screen and (max-width: 767px){
@@ -198,12 +200,12 @@ hr{
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .conteiner{
         max-width: 90%;
     }
 
-    .botao-menu {
+    .botao-menu{
         display: none;
     }
     
@@ -212,7 +214,7 @@ hr{
     }
 
     .noticia{
-        grid-template-columns: repeat(2, 49%);
+        grid-template-columns: repeat(2, 32%);
     }
 }
 
